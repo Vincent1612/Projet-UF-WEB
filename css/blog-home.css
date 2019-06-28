@@ -1,0 +1,9 @@
+.image {
+  background-size: cover;
+  width: 500px;
+  height: 100px;
+}
+
+body{
+  background-color: black
+}
