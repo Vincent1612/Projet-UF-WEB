@@ -30,7 +30,7 @@
             'cost' => 12,
             ];
 
-           $hashpass = password_hash($password, PASSWORD_BCRYPT, $option)."\n";
+            $hashpass = password_hash($password, PASSWORD_BCRYPT, $option)."\n";
             }
 
             include 'include/database.php';

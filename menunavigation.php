@@ -4,3 +4,4 @@
     <a class="flex-sm-fill text-sm-center nav-link" href="../Contact.html">Contact</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="MonCV.pdf">Mon CV</a>
   </nav>
+  
