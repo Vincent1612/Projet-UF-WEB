@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <body style="background-color: grey;">
+     <body style="background-color: black;">
     <title>Nous contacter</title>
     <meta charset= "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,31 +15,28 @@
   </head>
 <body>
     
-    <form action="action_page.php" style="border:1px solid #ccc">
+    <form method="post" action="mail.php">
         <div class="container">
-          <h1>Enregistrez vous ici</h1>
-          <p>Merci de bien vouloir vous authentifier</p>
+          <h1 style="color: white;">Enregistrez vous ici</h1>
+          <p style="color: white;">Merci de bien vouloir vous authentifier</p>
           <hr>
       
-          <label for="email"><b>Email</b></label>
+          <label for="email"><b style="color: white;">Taper votre Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" required>
       
-          <label for="psw"><b>Mot de passe</b></label>
-          <input type="password" placeholder="Enter Password" name="password" required>
-      
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Se souvenir de moi
+          <label style="color: white;">
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" > Se souvenir de moi
           </label>
-      
-      
-          <div class="clearfix">
+          <br>
+          <label style="color: white;">Tape ton message ici pour m'écrire</label>
+          <textarea rows="10" cols="30" name="message"></textarea>
 
-            <button type="submit" class="signupbtn">S'inscrire</button>
-            <button type="button" class="cancelbtn">Annuler</button>
+          <div class="controls">
+
+            <input type="submit" class="formsend" value="Envoyer"></input>
+            <input type="reset" class="resetbtn" value="Annuler"></input>
           
-          </div>
-        </div>
-      </form> 
-          </form>
+           </div>
+     </form> 
     </div>
     </body>
